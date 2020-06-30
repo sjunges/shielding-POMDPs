@@ -1,0 +1,28 @@
+INFO - Engine sparse can not handle formula 'Pmax=? ["notbad" U "goal"]' on models of type pomdp.
+INFO - Analyzing property 'Pmax=? ["notbad" U "goal"]'
+
+INFO - Computing the unfolding for memory bound 2 and memory pattern 'full' ...
+INFO -  done.
+
+INFO - Time for POMDP transformation(s): 0.000ss.
+
+INFO - -------------------------------------------------------------- 
+Model type: 	POMDP (sparse)
+States: 	539
+Transitions: 	5202
+Choices: 	3018
+Observations: 	71
+Reward Models:  none
+State Labels: 	6 labels
+   * goal -> 14 item(s)
+   * stationvisit -> 49 item(s)
+   * init -> 1 item(s)
+   * notbad -> 461 item(s)
+   * deadlock -> 0 item(s)
+   * traps -> 14 item(s)
+Choice Labels: 	none
+-------------------------------------------------------------- 
+
+INFO - From initial state, one may not almost-surely reach the target .
+INFO - Time for POMDP analysis: 5.125ss.
+

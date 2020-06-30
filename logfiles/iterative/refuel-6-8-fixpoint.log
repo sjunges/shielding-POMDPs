@@ -1,0 +1,84 @@
+INFO - Engine sparse can not handle formula 'Pmax=? ["notbad" U "goal"]' on models of type pomdp.
+INFO - Analyzing property 'Pmax=? ["notbad" U "goal"]'
+
+INFO - -------------------------------------------------------------- 
+Model type: 	POMDP (sparse)
+States: 	270
+Transitions: 	1301
+Choices: 	755
+Observations: 	36
+Reward Models:  none
+State Labels: 	6 labels
+   * traps -> 7 item(s)
+   * init -> 1 item(s)
+   * stationvisit -> 25 item(s)
+   * deadlock -> 0 item(s)
+   * notbad -> 231 item(s)
+   * goal -> 7 item(s)
+Choice Labels: 	6 labels
+   * refuel -> 21 item(s)
+   * west -> 171 item(s)
+   * east -> 173 item(s)
+   * south -> 173 item(s)
+   * north -> 171 item(s)
+   * placement -> 1 item(s)
+-------------------------------------------------------------- 
+
+INFO - Start intializing solver...
+INFO - Start iterative solver...
+INFO - Reset solver to restart with current winning region
+INFO - Start intializing solver...
+INFO - Start iterative solver...
+INFO - ... after iteration 2 so far 94 checks.
+INFO - ... after iteration 3 so far 120 checks.
+INFO - ... after iteration 4 so far 140 checks.
+INFO - ... after iteration 5 so far 160 checks.
+INFO - ... after iteration 6 so far 163 checks.
+INFO - ... after iteration 7 so far 241 checks.
+INFO - ... after iteration 8 so far 279 checks.
+INFO - ... after iteration 9 so far 309 checks.
+INFO - ... after iteration 10 so far 331 checks.
+INFO - ... after iteration 11 so far 345 checks.
+INFO - ... after iteration 12 so far 376 checks.
+INFO - ... after iteration 13 so far 396 checks.
+INFO - ... after iteration 14 so far 433 checks.
+INFO - ... after iteration 15 so far 458 checks.
+INFO - ... after iteration 16 so far 480 checks.
+INFO - ... after iteration 17 so far 502 checks.
+INFO - ... after iteration 18 so far 536 checks.
+INFO - ... after iteration 19 so far 561 checks.
+INFO - ... after iteration 20 so far 587 checks.
+INFO - ... after iteration 21 so far 606 checks.
+INFO - ... after iteration 22 so far 629 checks.
+INFO - ... after iteration 23 so far 649 checks.
+INFO - ... after iteration 24 so far 676 checks.
+INFO - ... after iteration 25 so far 703 checks.
+INFO - ... after iteration 26 so far 726 checks.
+INFO - ... after iteration 27 so far 740 checks.
+INFO - ... after iteration 28 so far 773 checks.
+INFO - ... after iteration 29 so far 789 checks.
+INFO - ... after iteration 30 so far 817 checks.
+INFO - ... after iteration 31 so far 835 checks.
+INFO - ... after iteration 32 so far 855 checks.
+INFO - ... after iteration 33 so far 881 checks.
+INFO - ... after iteration 34 so far 902 checks.
+INFO - ... after iteration 35 so far 938 checks.
+INFO - ... after iteration 36 so far 955 checks.
+INFO - ... after iteration 37 so far 980 checks.
+INFO - ... after iteration 38 so far 1000 checks.
+INFO - ... after iteration 39 so far 1022 checks.
+INFO - Write to file refuel-6-8-fixpoint.wr.
+
+INFO - Initial state is safe: 1
+INFO - Total time: 5.780s
+INFO - SAT Calls 1023
+INFO - SAT Calls time: 2.941s
+INFO - Outer iterations: 40
+INFO - Solver initialization time: 0.177s
+INFO - Obtain partial scheduler time: 2.117s
+INFO - Update solver to extend partial scheduler time: 0.217s
+INFO - Update solver with new scheduler time: 0.246s
+INFO - Winning regions update time: 0.036s
+INFO - Graph search time: 0.000s
+INFO - Time for POMDP analysis: 5.791ss.
+

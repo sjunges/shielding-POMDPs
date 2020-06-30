@@ -1,0 +1,331 @@
+INFO - Engine sparse can not handle formula 'Pmax=? ["notbad" U "goal"]' on models of type pomdp.
+INFO - Analyzing property 'Pmax=? ["notbad" U "goal"]'
+
+INFO - -------------------------------------------------------------- 
+Model type: 	POMDP (sparse)
+States: 	816
+Transitions: 	7292
+Choices: 	4277
+Observations: 	74
+Reward Models:  none
+State Labels: 	5 labels
+   * deadlock -> 0 item(s)
+   * rockposition -> 26 item(s)
+   * init -> 1 item(s)
+   * notbad -> 810 item(s)
+   * goal -> 36 item(s)
+Choice Labels: 	10 labels
+   * finish -> 72 item(s)
+   * r2sample -> 20 item(s)
+   * r2sense -> 551 item(s)
+   * west -> 755 item(s)
+   * r1sample -> 20 item(s)
+   * east -> 755 item(s)
+   * r1sense -> 551 item(s)
+   * north -> 755 item(s)
+   * south -> 755 item(s)
+   * placement -> 1 item(s)
+-------------------------------------------------------------- 
+
+INFO - Start intializing solver...
+INFO - Start iterative solver...
+INFO - ... after iteration 1 so far 334 checks.
+INFO - ... after iteration 2 so far 399 checks.
+INFO - ... after iteration 3 so far 445 checks.
+INFO - ... after iteration 4 so far 501 checks.
+INFO - ... after iteration 5 so far 522 checks.
+INFO - ... after iteration 6 so far 527 checks.
+INFO - ... after iteration 7 so far 542 checks.
+INFO - ... after iteration 8 so far 559 checks.
+INFO - ... after iteration 9 so far 565 checks.
+INFO - ... after iteration 10 so far 568 checks.
+INFO - ... after iteration 11 so far 571 checks.
+INFO - ... after iteration 12 so far 578 checks.
+INFO - ... after iteration 13 so far 590 checks.
+INFO - ... after iteration 14 so far 621 checks.
+INFO - ... after iteration 15 so far 643 checks.
+INFO - ... after iteration 16 so far 646 checks.
+INFO - ... after iteration 17 so far 648 checks.
+INFO - ... after iteration 18 so far 693 checks.
+INFO - ... after iteration 19 so far 696 checks.
+INFO - ... after iteration 20 so far 704 checks.
+INFO - ... after iteration 21 so far 711 checks.
+INFO - ... after iteration 22 so far 739 checks.
+INFO - ... after iteration 23 so far 771 checks.
+INFO - ... after iteration 24 so far 782 checks.
+INFO - ... after iteration 25 so far 788 checks.
+INFO - ... after iteration 26 so far 791 checks.
+INFO - ... after iteration 27 so far 798 checks.
+INFO - ... after iteration 28 so far 855 checks.
+INFO - ... after iteration 29 so far 861 checks.
+INFO - ... after iteration 30 so far 868 checks.
+INFO - ... after iteration 31 so far 900 checks.
+INFO - ... after iteration 32 so far 915 checks.
+INFO - ... after iteration 33 so far 940 checks.
+INFO - ... after iteration 34 so far 960 checks.
+INFO - ... after iteration 35 so far 985 checks.
+INFO - ... after iteration 36 so far 1006 checks.
+INFO - ... after iteration 37 so far 1017 checks.
+INFO - ... after iteration 38 so far 1027 checks.
+INFO - ... after iteration 39 so far 1046 checks.
+INFO - ... after iteration 40 so far 1065 checks.
+INFO - ... after iteration 41 so far 1092 checks.
+INFO - ... after iteration 42 so far 1099 checks.
+INFO - ... after iteration 43 so far 1121 checks.
+INFO - ... after iteration 44 so far 1143 checks.
+INFO - ... after iteration 45 so far 1157 checks.
+INFO - ... after iteration 46 so far 1167 checks.
+INFO - ... after iteration 47 so far 1172 checks.
+INFO - ... after iteration 48 so far 1225 checks.
+INFO - ... after iteration 49 so far 1250 checks.
+INFO - ... after iteration 50 so far 1294 checks.
+INFO - ... after iteration 51 so far 1300 checks.
+INFO - ... after iteration 52 so far 1337 checks.
+INFO - ... after iteration 53 so far 1342 checks.
+INFO - ... after iteration 54 so far 1367 checks.
+INFO - ... after iteration 55 so far 1415 checks.
+INFO - ... after iteration 56 so far 1436 checks.
+INFO - ... after iteration 57 so far 1442 checks.
+INFO - ... after iteration 58 so far 1466 checks.
+INFO - ... after iteration 59 so far 1468 checks.
+INFO - ... after iteration 60 so far 1502 checks.
+INFO - ... after iteration 61 so far 1561 checks.
+INFO - ... after iteration 62 so far 1571 checks.
+INFO - ... after iteration 63 so far 1603 checks.
+INFO - ... after iteration 64 so far 1615 checks.
+INFO - ... after iteration 65 so far 1619 checks.
+INFO - ... after iteration 66 so far 1642 checks.
+INFO - ... after iteration 67 so far 1646 checks.
+INFO - ... after iteration 68 so far 1666 checks.
+INFO - ... after iteration 69 so far 1702 checks.
+INFO - ... after iteration 70 so far 1752 checks.
+INFO - ... after iteration 71 so far 1784 checks.
+INFO - ... after iteration 72 so far 1791 checks.
+INFO - ... after iteration 73 so far 1813 checks.
+INFO - ... after iteration 74 so far 1815 checks.
+INFO - ... after iteration 75 so far 1817 checks.
+INFO - ... after iteration 76 so far 1821 checks.
+INFO - ... after iteration 77 so far 1833 checks.
+INFO - ... after iteration 78 so far 1852 checks.
+INFO - ... after iteration 79 so far 1864 checks.
+INFO - ... after iteration 80 so far 1896 checks.
+INFO - ... after iteration 81 so far 1920 checks.
+INFO - ... after iteration 82 so far 1924 checks.
+INFO - ... after iteration 83 so far 1999 checks.
+INFO - ... after iteration 84 so far 2006 checks.
+INFO - ... after iteration 85 so far 2008 checks.
+INFO - ... after iteration 86 so far 2029 checks.
+INFO - ... after iteration 87 so far 2060 checks.
+INFO - ... after iteration 88 so far 2065 checks.
+INFO - ... after iteration 89 so far 2083 checks.
+INFO - ... after iteration 90 so far 2139 checks.
+INFO - ... after iteration 91 so far 2158 checks.
+INFO - ... after iteration 92 so far 2190 checks.
+INFO - ... after iteration 93 so far 2211 checks.
+INFO - ... after iteration 94 so far 2214 checks.
+INFO - ... after iteration 95 so far 2248 checks.
+INFO - ... after iteration 96 so far 2253 checks.
+INFO - ... after iteration 97 so far 2269 checks.
+INFO - ... after iteration 98 so far 2292 checks.
+INFO - ... after iteration 99 so far 2339 checks.
+INFO - ... after iteration 100 so far 2387 checks.
+INFO - ... after iteration 101 so far 2401 checks.
+INFO - ... after iteration 102 so far 2405 checks.
+INFO - ... after iteration 103 so far 2415 checks.
+INFO - ... after iteration 104 so far 2481 checks.
+INFO - ... after iteration 105 so far 2547 checks.
+INFO - ... after iteration 106 so far 2569 checks.
+INFO - ... after iteration 107 so far 2621 checks.
+INFO - ... after iteration 108 so far 2628 checks.
+INFO - ... after iteration 109 so far 2653 checks.
+INFO - ... after iteration 110 so far 2672 checks.
+INFO - ... after iteration 111 so far 2684 checks.
+INFO - ... after iteration 112 so far 2719 checks.
+INFO - ... after iteration 113 so far 2727 checks.
+INFO - ... after iteration 114 so far 2758 checks.
+INFO - ... after iteration 115 so far 2789 checks.
+INFO - ... after iteration 116 so far 2800 checks.
+INFO - ... after iteration 117 so far 2811 checks.
+INFO - ... after iteration 118 so far 2844 checks.
+INFO - ... after iteration 119 so far 2900 checks.
+INFO - ... after iteration 120 so far 2939 checks.
+INFO - ... after iteration 121 so far 2990 checks.
+INFO - ... after iteration 122 so far 2994 checks.
+INFO - ... after iteration 123 so far 3002 checks.
+INFO - ... after iteration 124 so far 3054 checks.
+INFO - ... after iteration 125 so far 3074 checks.
+INFO - ... after iteration 126 so far 3082 checks.
+INFO - ... after iteration 127 so far 3088 checks.
+INFO - ... after iteration 128 so far 3097 checks.
+INFO - ... after iteration 129 so far 3114 checks.
+INFO - ... after iteration 130 so far 3143 checks.
+INFO - ... after iteration 131 so far 3146 checks.
+INFO - ... after iteration 132 so far 3185 checks.
+INFO - ... after iteration 133 so far 3228 checks.
+INFO - ... after iteration 134 so far 3253 checks.
+INFO - ... after iteration 135 so far 3320 checks.
+INFO - ... after iteration 136 so far 3337 checks.
+INFO - ... after iteration 137 so far 3352 checks.
+INFO - ... after iteration 138 so far 3420 checks.
+INFO - ... after iteration 139 so far 3429 checks.
+INFO - ... after iteration 140 so far 3446 checks.
+INFO - ... after iteration 141 so far 3468 checks.
+INFO - ... after iteration 142 so far 3498 checks.
+INFO - ... after iteration 143 so far 3564 checks.
+INFO - ... after iteration 144 so far 3587 checks.
+INFO - ... after iteration 145 so far 3644 checks.
+INFO - ... after iteration 146 so far 3657 checks.
+INFO - ... after iteration 147 so far 3703 checks.
+INFO - ... after iteration 148 so far 3715 checks.
+INFO - ... after iteration 149 so far 3757 checks.
+INFO - ... after iteration 150 so far 3769 checks.
+INFO - ... after iteration 151 so far 3772 checks.
+INFO - ... after iteration 152 so far 3774 checks.
+INFO - ... after iteration 153 so far 3831 checks.
+INFO - ... after iteration 154 so far 3844 checks.
+INFO - ... after iteration 155 so far 3849 checks.
+INFO - ... after iteration 156 so far 3855 checks.
+INFO - ... after iteration 157 so far 3870 checks.
+INFO - ... after iteration 158 so far 3890 checks.
+INFO - ... after iteration 159 so far 3920 checks.
+INFO - ... after iteration 160 so far 3926 checks.
+INFO - ... after iteration 161 so far 3966 checks.
+INFO - ... after iteration 162 so far 3979 checks.
+INFO - ... after iteration 163 so far 4029 checks.
+INFO - ... after iteration 164 so far 4046 checks.
+INFO - ... after iteration 165 so far 4052 checks.
+INFO - ... after iteration 166 so far 4092 checks.
+INFO - ... after iteration 167 so far 4094 checks.
+INFO - ... after iteration 168 so far 4137 checks.
+INFO - ... after iteration 169 so far 4152 checks.
+INFO - ... after iteration 170 so far 4204 checks.
+INFO - ... after iteration 171 so far 4220 checks.
+INFO - ... after iteration 172 so far 4255 checks.
+INFO - ... after iteration 173 so far 4272 checks.
+INFO - ... after iteration 174 so far 4275 checks.
+INFO - ... after iteration 175 so far 4291 checks.
+INFO - ... after iteration 176 so far 4295 checks.
+INFO - ... after iteration 177 so far 4319 checks.
+INFO - ... after iteration 178 so far 4331 checks.
+INFO - ... after iteration 179 so far 4337 checks.
+INFO - ... after iteration 180 so far 4379 checks.
+INFO - ... after iteration 181 so far 4418 checks.
+INFO - ... after iteration 182 so far 4461 checks.
+INFO - ... after iteration 183 so far 4484 checks.
+INFO - ... after iteration 184 so far 4510 checks.
+INFO - ... after iteration 185 so far 4541 checks.
+INFO - ... after iteration 186 so far 4544 checks.
+INFO - ... after iteration 187 so far 4561 checks.
+INFO - ... after iteration 188 so far 4584 checks.
+INFO - ... after iteration 189 so far 4599 checks.
+INFO - ... after iteration 190 so far 4614 checks.
+INFO - ... after iteration 191 so far 4626 checks.
+INFO - ... after iteration 192 so far 4662 checks.
+INFO - ... after iteration 193 so far 4667 checks.
+INFO - ... after iteration 194 so far 4676 checks.
+INFO - ... after iteration 195 so far 4694 checks.
+INFO - ... after iteration 196 so far 4737 checks.
+INFO - ... after iteration 197 so far 4828 checks.
+INFO - ... after iteration 198 so far 4834 checks.
+INFO - ... after iteration 199 so far 4850 checks.
+INFO - ... after iteration 200 so far 4866 checks.
+INFO - ... after iteration 201 so far 4897 checks.
+INFO - ... after iteration 202 so far 4913 checks.
+INFO - ... after iteration 203 so far 5008 checks.
+INFO - ... after iteration 204 so far 5033 checks.
+INFO - ... after iteration 205 so far 5038 checks.
+INFO - ... after iteration 206 so far 5047 checks.
+INFO - ... after iteration 207 so far 5078 checks.
+INFO - ... after iteration 208 so far 5098 checks.
+INFO - ... after iteration 209 so far 5116 checks.
+INFO - ... after iteration 210 so far 5135 checks.
+INFO - ... after iteration 211 so far 5166 checks.
+INFO - ... after iteration 212 so far 5198 checks.
+INFO - ... after iteration 213 so far 5211 checks.
+INFO - ... after iteration 214 so far 5255 checks.
+INFO - ... after iteration 215 so far 5269 checks.
+INFO - ... after iteration 216 so far 5293 checks.
+INFO - ... after iteration 217 so far 5297 checks.
+INFO - ... after iteration 218 so far 5386 checks.
+INFO - ... after iteration 219 so far 5397 checks.
+INFO - ... after iteration 220 so far 5412 checks.
+INFO - ... after iteration 221 so far 5454 checks.
+INFO - ... after iteration 222 so far 5510 checks.
+INFO - ... after iteration 223 so far 5520 checks.
+INFO - ... after iteration 224 so far 5531 checks.
+INFO - ... after iteration 225 so far 5535 checks.
+INFO - ... after iteration 226 so far 5560 checks.
+INFO - ... after iteration 227 so far 5569 checks.
+INFO - ... after iteration 228 so far 5579 checks.
+INFO - ... after iteration 229 so far 5633 checks.
+INFO - ... after iteration 230 so far 5636 checks.
+INFO - ... after iteration 231 so far 5730 checks.
+INFO - ... after iteration 232 so far 5770 checks.
+INFO - ... after iteration 233 so far 5806 checks.
+INFO - ... after iteration 234 so far 5824 checks.
+INFO - ... after iteration 235 so far 5846 checks.
+INFO - ... after iteration 236 so far 5851 checks.
+INFO - ... after iteration 237 so far 5861 checks.
+INFO - ... after iteration 238 so far 5940 checks.
+INFO - ... after iteration 239 so far 5982 checks.
+INFO - ... after iteration 240 so far 6055 checks.
+INFO - ... after iteration 241 so far 6149 checks.
+INFO - ... after iteration 242 so far 6175 checks.
+INFO - ... after iteration 243 so far 6216 checks.
+INFO - ... after iteration 244 so far 6230 checks.
+INFO - ... after iteration 245 so far 6316 checks.
+INFO - ... after iteration 246 so far 6318 checks.
+INFO - ... after iteration 247 so far 6389 checks.
+INFO - ... after iteration 248 so far 6466 checks.
+INFO - Reset solver to restart with current winning region
+INFO - Start intializing solver...
+INFO - Start iterative solver...
+INFO - ... after iteration 250 so far 6529 checks.
+INFO - ... after iteration 251 so far 6764 checks.
+INFO - ... after iteration 252 so far 6815 checks.
+INFO - ... after iteration 253 so far 6891 checks.
+INFO - ... after iteration 254 so far 7152 checks.
+INFO - ... after iteration 255 so far 7252 checks.
+INFO - ... after iteration 256 so far 7332 checks.
+INFO - ... after iteration 257 so far 7377 checks.
+INFO - ... after iteration 258 so far 7649 checks.
+INFO - ... after iteration 259 so far 7813 checks.
+INFO - ... after iteration 260 so far 8087 checks.
+INFO - ... after iteration 261 so far 8324 checks.
+INFO - ... after iteration 262 so far 8550 checks.
+INFO - ... after iteration 263 so far 8672 checks.
+INFO - ... after iteration 264 so far 8978 checks.
+INFO - ... after iteration 265 so far 9245 checks.
+INFO - ... after iteration 266 so far 9527 checks.
+INFO - ... after iteration 267 so far 9782 checks.
+INFO - ... after iteration 268 so far 9894 checks.
+INFO - ... after iteration 269 so far 10096 checks.
+INFO - ... after iteration 270 so far 10140 checks.
+INFO - ... after iteration 271 so far 10392 checks.
+INFO - ... after iteration 272 so far 10685 checks.
+INFO - ... after iteration 273 so far 10989 checks.
+INFO - ... after iteration 274 so far 11308 checks.
+INFO - ... after iteration 275 so far 11556 checks.
+INFO - ... after iteration 276 so far 11823 checks.
+INFO - ... after iteration 277 so far 12054 checks.
+INFO - ... after iteration 278 so far 12317 checks.
+INFO - ... after iteration 279 so far 12564 checks.
+INFO - ... after iteration 280 so far 12845 checks.
+INFO - ... after iteration 281 so far 13027 checks.
+INFO - ... after iteration 282 so far 13336 checks.
+INFO - ... after iteration 283 so far 13649 checks.
+INFO - Write to file rocks-6-fixpoint.wr.
+
+INFO - Initial state is safe: 1
+INFO - Total time: 752.668s
+INFO - SAT Calls 13650
+INFO - SAT Calls time: 576.780s
+INFO - Outer iterations: 284
+INFO - Solver initialization time: 2.783s
+INFO - Obtain partial scheduler time: 132.984s
+INFO - Update solver to extend partial scheduler time: 8.374s
+INFO - Update solver with new scheduler time: 22.458s
+INFO - Winning regions update time: 3.388s
+INFO - Graph search time: 0.006s
+INFO - Time for POMDP analysis: 752.778ss.
+

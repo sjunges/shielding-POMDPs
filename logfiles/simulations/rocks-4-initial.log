@@ -1,0 +1,37 @@
+INFO:__main__:Look up problem definition....
+INFO:__main__:Load winning region...
+INFO:__main__:Loading problem definition....
+INFO:__main__:Construct POMDP representation...
+INFO:rlshield.model_simulator:Start new episode.
+INFO:rlshield.model_simulator:Done after 81 steps!
+INFO:rlshield.model_simulator:Start new episode.
+INFO:rlshield.model_simulator:Start new episode.
+INFO:rlshield.model_simulator:Start new episode.
+INFO:rlshield.model_simulator:Done after 95 steps!
+INFO:rlshield.model_simulator:Start new episode.
+INFO:rlshield.model_simulator:Done after 51 steps!
+INFO:rlshield.model_simulator:Start new episode.
+INFO:rlshield.model_simulator:Start new episode.
+INFO:rlshield.model_simulator:Done after 66 steps!
+INFO:rlshield.model_simulator:Start new episode.
+INFO:rlshield.model_simulator:Start new episode.
+INFO:rlshield.model_simulator:Start new episode.
+INFO:rlshield.model_simulator:Start new episode.
+INFO:rlshield.model_simulator:Start new episode.
+INFO:rlshield.model_simulator:Start new episode.
+INFO:rlshield.model_simulator:Done after 113 steps!
+INFO:rlshield.recorder:Rendering newvideos/rocks-4-initial-0.mp4
+INFO:matplotlib.animation:figure size in inches has been adjusted from 6.3999999999999995 x 4.8 to 6.4 x 4.8
+INFO:matplotlib.animation:MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 3 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y newvideos/rocks-4-initial-0.mp4
+INFO:rlshield.recorder:Rendering newvideos/rocks-4-initial-1.mp4
+INFO:matplotlib.animation:figure size in inches has been adjusted from 6.3999999999999995 x 4.8 to 6.4 x 4.8
+INFO:matplotlib.animation:MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 3 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y newvideos/rocks-4-initial-1.mp4
+INFO:rlshield.recorder:Rendering newvideos/rocks-4-initial-2.mp4
+INFO:matplotlib.animation:figure size in inches has been adjusted from 6.3999999999999995 x 4.8 to 6.4 x 4.8
+INFO:matplotlib.animation:MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 3 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y newvideos/rocks-4-initial-2.mp4
+INFO:rlshield.recorder:Rendering newvideos/rocks-4-initial-3.mp4
+INFO:matplotlib.animation:figure size in inches has been adjusted from 6.3999999999999995 x 4.8 to 6.4 x 4.8
+INFO:matplotlib.animation:MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 3 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y newvideos/rocks-4-initial-3.mp4
+INFO:rlshield.recorder:Rendering newvideos/rocks-4-initial-4.mp4
+INFO:matplotlib.animation:figure size in inches has been adjusted from 6.3999999999999995 x 4.8 to 6.4 x 4.8
+INFO:matplotlib.animation:MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 3 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y newvideos/rocks-4-initial-4.mp4

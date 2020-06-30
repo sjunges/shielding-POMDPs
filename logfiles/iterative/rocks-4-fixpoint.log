@@ -1,0 +1,81 @@
+INFO - Engine sparse can not handle formula 'Pmax=? ["notbad" U "goal"]' on models of type pomdp.
+INFO - Analyzing property 'Pmax=? ["notbad" U "goal"]'
+
+INFO - -------------------------------------------------------------- 
+Model type: 	POMDP (sparse)
+States: 	331
+Transitions: 	2484
+Choices: 	1649
+Observations: 	65
+Reward Models:  none
+State Labels: 	5 labels
+   * deadlock -> 0 item(s)
+   * rockposition -> 22 item(s)
+   * init -> 1 item(s)
+   * notbad -> 325 item(s)
+   * goal -> 24 item(s)
+Choice Labels: 	10 labels
+   * finish -> 48 item(s)
+   * r2sample -> 16 item(s)
+   * r2sense -> 193 item(s)
+   * west -> 288 item(s)
+   * r1sample -> 16 item(s)
+   * east -> 288 item(s)
+   * r1sense -> 193 item(s)
+   * north -> 288 item(s)
+   * south -> 288 item(s)
+   * placement -> 1 item(s)
+-------------------------------------------------------------- 
+
+INFO - Start intializing solver...
+INFO - Start iterative solver...
+INFO - ... after iteration 1 so far 137 checks.
+INFO - ... after iteration 2 so far 190 checks.
+INFO - ... after iteration 3 so far 235 checks.
+INFO - ... after iteration 4 so far 285 checks.
+INFO - ... after iteration 5 so far 332 checks.
+INFO - ... after iteration 6 so far 391 checks.
+INFO - ... after iteration 7 so far 431 checks.
+INFO - ... after iteration 8 so far 479 checks.
+INFO - ... after iteration 9 so far 505 checks.
+INFO - ... after iteration 10 so far 540 checks.
+INFO - ... after iteration 11 so far 596 checks.
+INFO - ... after iteration 12 so far 642 checks.
+INFO - ... after iteration 13 so far 683 checks.
+INFO - ... after iteration 14 so far 748 checks.
+INFO - ... after iteration 15 so far 804 checks.
+INFO - ... after iteration 16 so far 857 checks.
+INFO - ... after iteration 17 so far 885 checks.
+INFO - ... after iteration 18 so far 915 checks.
+INFO - ... after iteration 19 so far 961 checks.
+INFO - ... after iteration 20 so far 1012 checks.
+INFO - ... after iteration 21 so far 1044 checks.
+INFO - ... after iteration 22 so far 1100 checks.
+INFO - ... after iteration 23 so far 1145 checks.
+INFO - ... after iteration 24 so far 1195 checks.
+INFO - ... after iteration 25 so far 1247 checks.
+INFO - ... after iteration 26 so far 1302 checks.
+INFO - ... after iteration 27 so far 1373 checks.
+INFO - ... after iteration 28 so far 1434 checks.
+INFO - ... after iteration 29 so far 1476 checks.
+INFO - ... after iteration 30 so far 1533 checks.
+INFO - ... after iteration 31 so far 1617 checks.
+INFO - ... after iteration 32 so far 1663 checks.
+INFO - ... after iteration 33 so far 1673 checks.
+INFO - ... after iteration 34 so far 1686 checks.
+INFO - ... after iteration 35 so far 1701 checks.
+INFO - Write to file rocks-4-fixpoint.wr.
+
+INFO - Initial state is safe: 1
+INFO - Total time: 18.843s
+INFO - SAT Calls 1702
+INFO - SAT Calls time: 12.043s
+INFO - Outer iterations: 36
+INFO - Solver initialization time: 0.223s
+INFO - Obtain partial scheduler time: 5.823s
+INFO - Update solver to extend partial scheduler time: 0.494s
+INFO - Update solver with new scheduler time: 0.202s
+INFO - Winning regions update time: 0.025s
+INFO - Graph search time: 0.001s
+INFO - Time for POMDP analysis: 18.860ss.
+

@@ -1,0 +1,108 @@
+INFO - Engine sparse can not handle formula 'Pmax=? ["notbad" U "goal"]' on models of type pomdp.
+INFO - Analyzing property 'Pmax=? ["notbad" U "goal"]'
+
+INFO - -------------------------------------------------------------- 
+Model type: 	POMDP (sparse)
+States: 	37
+Transitions: 	213
+Choices: 	127
+Observations: 	4
+Reward Models:  none
+State Labels: 	5 labels
+   * deadlock -> 0 item(s)
+   * traps -> 5 item(s)
+   * init -> 1 item(s)
+   * notbad -> 32 item(s)
+   * goal -> 1 item(s)
+Choice Labels: 	5 labels
+   * west -> 30 item(s)
+   * east -> 30 item(s)
+   * north -> 30 item(s)
+   * south -> 30 item(s)
+   * placement -> 1 item(s)
+-------------------------------------------------------------- 
+
+INFO - Start intializing solver...
+INFO - Start iterative solver...
+INFO - ... after iteration 1 so far 6 checks.
+INFO - ... after iteration 2 so far 15 checks.
+INFO - ... after iteration 3 so far 27 checks.
+INFO - ... after iteration 4 so far 38 checks.
+INFO - ... after iteration 5 so far 51 checks.
+INFO - ... after iteration 6 so far 65 checks.
+INFO - ... after iteration 7 so far 81 checks.
+INFO - ... after iteration 8 so far 98 checks.
+INFO - ... after iteration 9 so far 115 checks.
+INFO - ... after iteration 10 so far 131 checks.
+INFO - ... after iteration 11 so far 148 checks.
+INFO - ... after iteration 12 so far 164 checks.
+INFO - ... after iteration 13 so far 176 checks.
+INFO - ... after iteration 14 so far 191 checks.
+INFO - ... after iteration 15 so far 208 checks.
+INFO - ... after iteration 16 so far 223 checks.
+INFO - ... after iteration 17 so far 241 checks.
+INFO - ... after iteration 18 so far 260 checks.
+INFO - ... after iteration 19 so far 272 checks.
+INFO - ... after iteration 20 so far 296 checks.
+INFO - ... after iteration 21 so far 307 checks.
+INFO - ... after iteration 22 so far 333 checks.
+INFO - ... after iteration 23 so far 354 checks.
+INFO - ... after iteration 24 so far 371 checks.
+INFO - ... after iteration 25 so far 388 checks.
+INFO - ... after iteration 26 so far 407 checks.
+INFO - ... after iteration 27 so far 414 checks.
+INFO - ... after iteration 28 so far 432 checks.
+INFO - ... after iteration 29 so far 452 checks.
+INFO - ... after iteration 30 so far 468 checks.
+INFO - ... after iteration 31 so far 473 checks.
+INFO - ... after iteration 32 so far 486 checks.
+INFO - ... after iteration 33 so far 494 checks.
+INFO - ... after iteration 34 so far 502 checks.
+INFO - ... after iteration 35 so far 513 checks.
+INFO - ... after iteration 36 so far 525 checks.
+INFO - ... after iteration 37 so far 537 checks.
+INFO - ... after iteration 38 so far 540 checks.
+INFO - ... after iteration 39 so far 546 checks.
+INFO - ... after iteration 40 so far 565 checks.
+INFO - ... after iteration 41 so far 583 checks.
+INFO - ... after iteration 42 so far 593 checks.
+INFO - ... after iteration 43 so far 598 checks.
+INFO - ... after iteration 44 so far 615 checks.
+INFO - ... after iteration 45 so far 622 checks.
+INFO - ... after iteration 46 so far 631 checks.
+INFO - ... after iteration 47 so far 637 checks.
+INFO - ... after iteration 48 so far 645 checks.
+INFO - ... after iteration 49 so far 657 checks.
+INFO - ... after iteration 50 so far 673 checks.
+INFO - ... after iteration 51 so far 684 checks.
+INFO - ... after iteration 52 so far 701 checks.
+INFO - ... after iteration 53 so far 719 checks.
+INFO - ... after iteration 54 so far 727 checks.
+INFO - ... after iteration 55 so far 738 checks.
+INFO - ... after iteration 56 so far 748 checks.
+INFO - ... after iteration 57 so far 758 checks.
+INFO - ... after iteration 58 so far 766 checks.
+INFO - ... after iteration 59 so far 772 checks.
+INFO - ... after iteration 60 so far 777 checks.
+INFO - ... after iteration 61 so far 783 checks.
+INFO - ... after iteration 62 so far 791 checks.
+INFO - ... after iteration 63 so far 798 checks.
+INFO - ... after iteration 64 so far 807 checks.
+INFO - ... after iteration 65 so far 812 checks.
+INFO - ... after iteration 66 so far 825 checks.
+INFO - ... after iteration 67 so far 838 checks.
+INFO - Write to file obstacle-6-fixpoint.wr.
+
+INFO - Initial state is safe: 1
+INFO - Total time: 1.726s
+INFO - SAT Calls 839
+INFO - SAT Calls time: 1.075s
+INFO - Outer iterations: 68
+INFO - Solver initialization time: 0.024s
+INFO - Obtain partial scheduler time: 0.332s
+INFO - Update solver to extend partial scheduler time: 0.088s
+INFO - Update solver with new scheduler time: 0.160s
+INFO - Winning regions update time: 0.028s
+INFO - Graph search time: 0.000s
+INFO - Time for POMDP analysis: 1.732ss.
+

@@ -1,0 +1,51 @@
+INFO - Engine sparse can not handle formula 'Pmax=? ["notbad" U "goal"]' on models of type pomdp.
+INFO - Analyzing property 'Pmax=? ["notbad" U "goal"]'
+
+INFO - -------------------------------------------------------------- 
+Model type: 	POMDP (sparse)
+States: 	13021
+Transitions: 	33949
+Choices: 	23577
+Observations: 	8584
+Reward Models:  none
+State Labels: 	5 labels
+   * deadlock -> 0 item(s)
+   * traps -> 140 item(s)
+   * init -> 1 item(s)
+   * notbad -> 9995 item(s)
+   * goal -> 96 item(s)
+Choice Labels: 	6 labels
+   * west -> 3768 item(s)
+   * east -> 3854 item(s)
+   * south -> 4306 item(s)
+   * north -> 3234 item(s)
+   * adv -> 5292 item(s)
+   * placement -> 1 item(s)
+-------------------------------------------------------------- 
+
+INFO - Start intializing solver...
+INFO - Start iterative solver...
+INFO - Reset solver to restart with current winning region
+INFO - Start intializing solver...
+INFO - Start iterative solver...
+INFO - Reset solver to restart with current winning region
+INFO - Start intializing solver...
+INFO - Start iterative solver...
+INFO - Reset solver to restart with current winning region
+INFO - Start intializing solver...
+INFO - Start iterative solver...
+INFO - Write to file avoid-7-4-fixpoint.wr.
+
+INFO - Initial state is safe: 1
+INFO - Total time: 744.949s
+INFO - SAT Calls 1027
+INFO - SAT Calls time: 265.009s
+INFO - Outer iterations: 4
+INFO - Solver initialization time: 19.045s
+INFO - Obtain partial scheduler time: 437.219s
+INFO - Update solver to extend partial scheduler time: 20.755s
+INFO - Update solver with new scheduler time: 0.000s
+INFO - Winning regions update time: 0.009s
+INFO - Graph search time: 2.228s
+INFO - Time for POMDP analysis: 745.883ss.
+

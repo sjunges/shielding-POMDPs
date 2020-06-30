@@ -1,0 +1,28 @@
+INFO:__main__:Look up problem definition....
+INFO:__main__:Loading problem definition....
+INFO:__main__:Construct POMDP representation...
+INFO:rlshield.model_simulator:Start new episode.
+INFO:rlshield.model_simulator:Done after 8 steps!
+INFO:rlshield.model_simulator:Start new episode.
+INFO:rlshield.model_simulator:Done after 20 steps!
+INFO:rlshield.model_simulator:Start new episode.
+INFO:rlshield.model_simulator:Done after 44 steps!
+INFO:rlshield.model_simulator:Start new episode.
+INFO:rlshield.model_simulator:Done after 8 steps!
+INFO:rlshield.model_simulator:Start new episode.
+INFO:rlshield.model_simulator:Done after 17 steps!
+INFO:rlshield.recorder:Rendering newvideos/refuel-6-8-noshield-0.mp4
+INFO:matplotlib.animation:figure size in inches has been adjusted from 6.3999999999999995 x 4.8 to 6.4 x 4.8
+INFO:matplotlib.animation:MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 3 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y newvideos/refuel-6-8-noshield-0.mp4
+INFO:rlshield.recorder:Rendering newvideos/refuel-6-8-noshield-1.mp4
+INFO:matplotlib.animation:figure size in inches has been adjusted from 6.3999999999999995 x 4.8 to 6.4 x 4.8
+INFO:matplotlib.animation:MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 3 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y newvideos/refuel-6-8-noshield-1.mp4
+INFO:rlshield.recorder:Rendering newvideos/refuel-6-8-noshield-2.mp4
+INFO:matplotlib.animation:figure size in inches has been adjusted from 6.3999999999999995 x 4.8 to 6.4 x 4.8
+INFO:matplotlib.animation:MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 3 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y newvideos/refuel-6-8-noshield-2.mp4
+INFO:rlshield.recorder:Rendering newvideos/refuel-6-8-noshield-3.mp4
+INFO:matplotlib.animation:figure size in inches has been adjusted from 6.3999999999999995 x 4.8 to 6.4 x 4.8
+INFO:matplotlib.animation:MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 3 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y newvideos/refuel-6-8-noshield-3.mp4
+INFO:rlshield.recorder:Rendering newvideos/refuel-6-8-noshield-4.mp4
+INFO:matplotlib.animation:figure size in inches has been adjusted from 6.3999999999999995 x 4.8 to 6.4 x 4.8
+INFO:matplotlib.animation:MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 3 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y newvideos/refuel-6-8-noshield-4.mp4

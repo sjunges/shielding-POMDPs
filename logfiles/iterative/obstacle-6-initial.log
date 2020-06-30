@@ -1,0 +1,51 @@
+INFO - Engine sparse can not handle formula 'Pmax=? ["notbad" U "goal"]' on models of type pomdp.
+INFO - Analyzing property 'Pmax=? ["notbad" U "goal"]'
+
+INFO - -------------------------------------------------------------- 
+Model type: 	POMDP (sparse)
+States: 	37
+Transitions: 	213
+Choices: 	127
+Observations: 	4
+Reward Models:  none
+State Labels: 	5 labels
+   * deadlock -> 0 item(s)
+   * traps -> 5 item(s)
+   * init -> 1 item(s)
+   * notbad -> 32 item(s)
+   * goal -> 1 item(s)
+Choice Labels: 	5 labels
+   * west -> 30 item(s)
+   * east -> 30 item(s)
+   * north -> 30 item(s)
+   * south -> 30 item(s)
+   * placement -> 1 item(s)
+-------------------------------------------------------------- 
+
+INFO - Start intializing solver...
+INFO - Start iterative solver...
+INFO - ... after iteration 1 so far 7 checks.
+INFO - ... after iteration 2 so far 17 checks.
+INFO - ... after iteration 3 so far 29 checks.
+INFO - ... after iteration 4 so far 41 checks.
+INFO - ... after iteration 5 so far 53 checks.
+INFO - ... after iteration 6 so far 67 checks.
+INFO - ... after iteration 7 so far 84 checks.
+INFO - ... after iteration 8 so far 98 checks.
+INFO - ... after iteration 9 so far 113 checks.
+INFO - From initial state, one can almost-surely reach the target.
+INFO - Write to file obstacle-6-initial.wr.
+
+INFO - Initial state is safe: 1
+INFO - Total time: 0.174s
+INFO - SAT Calls 114
+INFO - SAT Calls time: 0.083s
+INFO - Outer iterations: 10
+INFO - Solver initialization time: 0.027s
+INFO - Obtain partial scheduler time: 0.039s
+INFO - Update solver to extend partial scheduler time: 0.011s
+INFO - Update solver with new scheduler time: 0.010s
+INFO - Winning regions update time: 0.000s
+INFO - Graph search time: 0.000s
+INFO - Time for POMDP analysis: 0.178ss.
+

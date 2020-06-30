@@ -1,0 +1,44 @@
+INFO - Engine sparse can not handle formula 'Pmax=? ["notbad" U "goal"]' on models of type pomdp.
+INFO - Analyzing property 'Pmax=? ["notbad" U "goal"]'
+
+INFO - -------------------------------------------------------------- 
+Model type: 	POMDP (sparse)
+States: 	4705
+Transitions: 	18049
+Choices: 	11473
+Observations: 	2002
+Reward Models:  none
+State Labels: 	5 labels
+   * init -> 1 item(s)
+   * notbad -> 4607 item(s)
+   * goal -> 96 item(s)
+   * deadlock -> 0 item(s)
+   * exits -> 98 item(s)
+Choice Labels: 	6 labels
+   * west -> 2256 item(s)
+   * east -> 2256 item(s)
+   * south -> 2256 item(s)
+   * north -> 2256 item(s)
+   * adv -> 2256 item(s)
+   * placement -> 1 item(s)
+-------------------------------------------------------------- 
+
+INFO - Start intializing solver...
+INFO - Start iterative solver...
+INFO - ... after iteration 1 so far 80 checks.
+INFO - From initial state, one can almost-surely reach the target.
+INFO - Write to file intercept-7-1-initial.wr.
+
+INFO - Initial state is safe: 1
+INFO - Total time: 11.169s
+INFO - SAT Calls 81
+INFO - SAT Calls time: 4.416s
+INFO - Outer iterations: 2
+INFO - Solver initialization time: 1.320s
+INFO - Obtain partial scheduler time: 4.756s
+INFO - Update solver to extend partial scheduler time: 0.477s
+INFO - Update solver with new scheduler time: 0.106s
+INFO - Winning regions update time: 0.002s
+INFO - Graph search time: 0.072s
+INFO - Time for POMDP analysis: 11.294ss.
+
