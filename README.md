@@ -27,7 +27,7 @@ see [this documentation](https://www.stormchecker.org/documentation/obtain-storm
 
 The following command will run the docker container (for Windows platforms, please see the documentation from the storm website).
 ```
-docker run --mount type=bind,source="$(pwd)",target=/data -w /opt/experiments --rm -it --name premise sjunges/premise:cav21
+docker run --mount type=bind,source="$(pwd)",target=/data -w /opt/experiments --rm -it --name shieldexperiments sjunges/shieldingpomdps:cav21
 ```
 Files that one copies into `/data` are available on the host system in the current working directory. 
 
