@@ -1,0 +1,6 @@
+.git
+.gitignore
+*.csv
+logfiles/
+.idea/
+stats/
