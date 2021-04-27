@@ -225,7 +225,7 @@ python summarize_stats.py
 ```
 
 
-### Usage examples
+## Further usage examples
 
 - To invoke storm, see the shell scripts.  Storm will run on other POMDP instances, e.g.:
 ```
