@@ -16,10 +16,14 @@ Enforcing Almost-sure Reachability in POMDPs by Sebastian Junges, Nils Jansen an
     
 ## Using a Docker container
 
-We provide a docker container
+We provide a docker container. We assume you have [docker installed](https://docs.docker.com/get-docker/). Then, run:
 
 ```
 docker pull sjunges/shieldingpomdps:cav21
+```
+or in case you downloaded this container from an (unpacked) archive:
+```
+docker load -i shieldingpomdps_container.tar
 ```
 
 The container is based on an container for RLShield and ultimately based on the Docker for the probabilistic model checker as provided by the Storm developers, for details, 
@@ -27,12 +31,13 @@ see [this documentation](https://www.stormchecker.org/documentation/obtain-storm
 
 The following command will run the docker container (for Windows platforms, please see the documentation from the storm website).
 ```
-docker run --mount type=bind,source="$(pwd)",target=/data -w /opt/experiments --rm -it --name premise sjunges/premise:cav21
+docker run --mount type=bind,source="$(pwd)",target=/data -w /opt/experiments -it --name shieldingpomdps sjunges/shieldingpomds:cav21
 ```
 Files that one copies into `/data` are available on the host system in the current working directory. 
 
 You will see a prompt inside the docker container. The README in this folder is what you are reading. 
     
+**Note** The docker will may pose problems on Mac M1 silicon. Please consider setting the platform to amd64.
 
 ## Computing Winning Policies
 We first discuss how to compute winning policies and winning regions. 
@@ -126,6 +131,11 @@ The rover can move in any of the 4 cardinal directions, but the distance travell
     
     
 ### Videos
+The videos are in the `videos` folder of the docker and can be copied to the host machine by copying:
+```
+cp -r videos /data
+```
+
 #### Simulation set-up
 We provide videos of the shielded and unshielded agents.
 The agent, in every step, selects uniformly random an available action that is within the shield. 
