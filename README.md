@@ -23,7 +23,7 @@ docker pull sjunges/shieldingpomdps:cav21
 ```
 or in case you downloaded this container from an (unpacked) archive:
 ```
-docker load -i shieldingpomdps_container.tar
+docker load -i shieldingpomdps_docker.tar
 ```
 
 The container is based on an container for RLShield and ultimately based on the Docker for the probabilistic model checker as provided by the Storm developers, for details, 
@@ -31,7 +31,7 @@ see [this documentation](https://www.stormchecker.org/documentation/obtain-storm
 
 The following command will run the docker container (for Windows platforms, please see the documentation from the storm website).
 ```
-docker run --mount type=bind,source="$(pwd)",target=/data -w /opt/experiments -it --name shieldingpomdps sjunges/shieldingpomds:cav21
+docker run --mount type=bind,source="$(pwd)",target=/data -w /opt/experiments -it --name shieldingpomdps sjunges/shieldingpomdps:cav21
 ```
 Files that one copies into `/data` are available on the host system in the current working directory. 
 
