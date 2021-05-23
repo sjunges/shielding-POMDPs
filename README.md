@@ -4,7 +4,10 @@ This is the supplementary material for:
 
 Enforcing Almost-sure Reachability in POMDPs by Sebastian Junges, Nils Jansen and Sanjit A. Seshia. CAV 2021.
 
-## Content
+We thank the reviewer for valuable feedback that improved the quality of this artefact. 
+
+## Content and Structure
+
 - Videos with shielded and unshielded agents moving randomly through our 6x2 test domains.
 - Details about the models, and the model files describing the POMDPs
 - Scripts to rerun the experiments (and the pre-computed winning regions when one only wants to create more videos)
@@ -13,6 +16,13 @@ Enforcing Almost-sure Reachability in POMDPs by Sebastian Junges, Nils Jansen an
     - [Stormpy](https://github.com/sjunges/stormpy/tree/almostsurepomdp) (in a to-be-merged version), see `/opt/stormpy`
     - [Gridstorm](https://github.com/sjunges/gridworld-by-storm), a small library for visualising gridworlds, see `/opt/gridworld`
     - [RLShield](https://github.com/sjunges/shield-in-action), a prototype to shield an agent with the computed winning regions, see `/opt/rlshield` 
+
+This README is structured as follows:
+- Using the Docker container
+- Computing Winning Policies with Storm
+- Shielding and Simulation with RLShield
+- Installation hints
+
     
 ## Using a Docker container
 
@@ -36,8 +46,10 @@ docker run --mount type=bind,source="$(pwd)",target=/data -w /opt/experiments -i
 Files that one copies into `/data` are available on the host system in the current working directory. 
 
 You will see a prompt inside the docker container. The README in this folder is what you are reading. 
+
+(We provide nano as a text editor. Further software can be installed by apt-get). 
     
-**Note** The docker will may pose problems on Mac M1 silicon. Please consider setting the platform to amd64.
+**Note** The docker may pose problems on Mac M1 silicon. Please consider setting the platform to amd64.
 
 ## Computing Winning Policies
 We first discuss how to compute winning policies and winning regions. 
@@ -88,6 +100,13 @@ This can be enabled by adding the option `--pomdpQualitative:allstats` (but indu
 ### Running the code on different examples
 
 The code can run on general POMDPs in the format storm supports for POMDPs.
+
+- Storm will run on other POMDP instances, e.g.:
+```
+/opt/storm/build/bin/storm-pomdp --prism /opt/rlshield/examples/maze2.prism --prop "Pmax=? [\"bad\" U \"goal\"]" --qualitative-analysis -const "sl=0.3" --memlesssearch iterative
+```
+
+- Storm supports POMDPs in a [prism-language](https://www.prismmodelchecker.org/manual/ThePRISMLanguage/PartiallyObservableModels) dialect for POMDPs.
 
 
 ### Sources
@@ -235,12 +254,19 @@ python summarize_stats.py
 ```
 
 
-## Further usage examples
-
-- To invoke storm, see the shell scripts.  Storm will run on other POMDP instances, e.g.:
-```
-/opt/storm/build/bin/storm-pomdp --prism /opt/rlshield/examples/maze2.prism --prop "Pmax=? [\"bad\" U \"goal\"]" --qualitative-analysis -const "sl=0.3" --memlesssearch iterative
-```
+### Further usage examples
 
 - To run RLShield with different benchmarks, see the `README.md` in `/opt/rlshield` for more information. 
 On other benchmarks, there will be no visualizations possible, but the shielding will run as expected.
+
+
+## Reusability instructions
+
+The included docker image is based on the following incremental image builds:
+
+- Stormpy (by the storm developers)
+- Gridstorm
+- RLShield
+- The evaluation package
+
+The dockerfiles for the latter three are included
