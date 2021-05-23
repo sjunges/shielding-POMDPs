@@ -239,7 +239,7 @@ python summarize_stats.py
 
 - To invoke storm, see the shell scripts.  Storm will run on other POMDP instances, e.g.:
 ```
-/opt/storm/build/bin/storm-pomdp --prism /opt/rlshield/examples/maze2.prism --prop "Pmax=? [\!\"bad\" U \"goal\"]" --qualitative-analysis -const "sl=0.3" --memlesssearch iterative
+/opt/storm/build/bin/storm-pomdp --prism /opt/rlshield/examples/maze2.prism --prop "Pmax=? [\"bad\" U \"goal\"]" --qualitative-analysis -const "sl=0.3" --memlesssearch iterative
 ```
 
 - To run RLShield with different benchmarks, see the `README.md` in `/opt/rlshield` for more information. 
