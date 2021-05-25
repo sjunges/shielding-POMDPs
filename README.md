@@ -103,7 +103,7 @@ The code can run on general POMDPs in the format storm supports for POMDPs.
 
 - Storm will run on other POMDP instances, e.g.:
 ```
-/opt/storm/build/bin/storm-pomdp --prism /opt/rlshield/examples/maze2.prism --prop "Pmax=? [\"bad\" U \"goal\"]" --qualitative-analysis -const "sl=0.3" --memlesssearch iterative
+/opt/storm/build/bin/storm-pomdp --prism /opt/rlshield/examples/maze2.prism --prop "Pmax=? [!\"bad\" U \"goal\"]" --qualitative-analysis -const "sl=0.3" --memlesssearch iterative
 ```
 
 - Storm supports POMDPs in a [prism-language](https://www.prismmodelchecker.org/manual/ThePRISMLanguage/PartiallyObservableModels) dialect for POMDPs.
@@ -253,7 +253,6 @@ run
 python summarize_stats.py
 ```
 
-
 ### Further usage examples
 
 - To run RLShield with different benchmarks, see the `README.md` in `/opt/rlshield` for more information. 
@@ -262,6 +261,12 @@ On other benchmarks, there will be no visualizations possible, but the shielding
 
 ## Reusability instructions
 
+### Installation outside of the container
+
+To install the software contained in this artefact, install storm(py) and RLShield as outlined in the RLShield documentation. 
+
+### Rebuilding the container
+
 The included docker image is based on the following incremental image builds:
 
 - Stormpy (by the storm developers)
@@ -269,4 +274,4 @@ The included docker image is based on the following incremental image builds:
 - RLShield
 - The evaluation package
 
-The dockerfiles for the latter three are included
+The dockerfiles for the latter three are included in the corresponding `/opt/...` folders and in the repositories outlined above. The storm- and stormpy docker files are depolyed using continuous integration. Installing storm and stormpy is explained in detail on their [website](www.stormchecker.org). 
